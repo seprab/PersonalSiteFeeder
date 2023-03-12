@@ -1,6 +1,6 @@
 AUTHOR = 'SepraB'
 SITENAME = "SepraB's"
-SITEURL = 'https://seprab.github.io/seprab/'
+SITEURL = 'https://seprab.github.io/seprab'
 
 PATH = 'content'
 
@@ -16,13 +16,14 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('CV', '#'),
-         ('Currently working on', '#'),)
+LINKS = (('CV', 'https://seprab.github.io/seprab/seprab-timeline.html'),
+         ('Currently working on', '#'),
+         ('Mail me', 'mailto:sergioeprada@hotmail.com'),)
 
 # Social widget
 SOCIAL = (('Twiter', 'https://twitter.com/PinguinoSepraB'),
           ('LinkedIn', 'https://www.linkedin.com/in/seprab/'),
-          ('Mail', 'sergioeprada@hotmail.com'))
+          ('github', 'http://github.com/seprab'),)
 
 # static paths will be copied without parsing their contents
 STATIC_PATHS = [
