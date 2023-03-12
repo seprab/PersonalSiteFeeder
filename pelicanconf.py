@@ -1,6 +1,6 @@
 AUTHOR = 'SepraB'
-SITENAME = "SepraB's Blog"
-SITEURL = ''
+SITENAME = "SepraB's"
+SITEURL = 'https://seprab.github.io/seprab/'
 
 PATH = 'content'
 
@@ -16,16 +16,21 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'https://getpelican.com/'),
-         ('Python.org', 'https://www.python.org/'),
-         ('Jinja2', 'https://palletsprojects.com/p/jinja/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (('CV', '#'),
+         ('Currently working on', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('Twiter', 'https://twitter.com/PinguinoSepraB'),
+          ('LinkedIn', 'https://www.linkedin.com/in/seprab/'),
+          ('Mail', 'sergioeprada@hotmail.com'))
+
+# static paths will be copied without parsing their contents
+STATIC_PATHS = [
+    'static',
+    ]
+
 
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
