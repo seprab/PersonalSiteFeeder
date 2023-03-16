@@ -11,4 +11,4 @@ Personal information:
 
 I'm generetating the pelican site in my machine with the following command
 
-C:\Users\SergioPradaBarrios\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\python.exe -m pelican content
+python -m pelican content
