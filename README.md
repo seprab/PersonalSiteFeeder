@@ -1,14 +1,19 @@
 # PersonalSiteFeeder
-My personal site will be feeded by the content here
 
+This is the entry point for maintaining my personal site. I am using [Pelican](https://getpelican.com/) which is good for using markdown files as the source of every entry in my site.
 
-I believe I need to follow https://docs.getpelican.com/en/latest/tips.html?highlight=github#user-pages
+## How to clone?
+1. git clone --recurse-submodules git@github.com:seprab/PersonalSiteFeeder.git
 
-I will be using https://getpelican.com/ for generating the blog
-And I still need to look on how to generate the CV.
+## How to configure a computer to use it?
+1. python -m pip install "pelican[markdown]"
 
-Personal information:
-
-I'm generetating the pelican site in my machine with the following command
-
-python -m pelican content
+## How to make new post?
+> from the directory where this repo is cloned
+1. Create a new .md file inside the content directory. When created inside content/static/ the post will be available as a new tab in the site. Otherwise, it will become a blog entry.
+2. python -m pelican content
+3. python -m pelican --listen
+4. Go to http://127.0.0.1:8000 for pre-visualizing the site
+4. When done with testing:
+    1. Commit the changes from the submodule.
+    2. Commit the changes from the parent repro
