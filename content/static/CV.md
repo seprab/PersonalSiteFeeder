@@ -1,6 +1,6 @@
 Title: SepraB's Timeline
 Date: 2023-03-12 01:08
-Category: CV
+Category: About me
 
 ## Sergio Prada
 
