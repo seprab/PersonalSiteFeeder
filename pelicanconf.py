@@ -30,6 +30,7 @@ STATIC_PATHS = ['static','assets']
 EXTRA_PATH_METADATA = {
     'assets/images/favicon.ico': {'path': 'favicon.ico'},
     'assets/images/logo_only.png': {'path': 'logo_only.png'},
+    'assets/images/banner.jpeg': {'path': 'banner.jpeg'},
     }
 RELATIVE_URLS = True
 TEMPLATE_EXTENSIONS = ['.html']

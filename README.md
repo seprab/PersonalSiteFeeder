@@ -19,3 +19,6 @@ Also, worth mentioning that the original source of the theme is [BT3-Flat](https
 4. When done with testing:
     1. Commit the changes from the submodule.
     2. Commit the changes from the parent repro
+
+
+> Additional note: I created the baner in Microsoft Bing : Image creator powered by Dall-E with the prompt "peaceful indoor plants rocks daylight light beams bush lens distortion"
