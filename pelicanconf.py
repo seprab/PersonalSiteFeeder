@@ -96,11 +96,6 @@ PERSONAL_INFO = """My name is Sergio Prada, a Software Engineer at Unity Technol
 
 I speak Spanish and English, I am an early parent, I love video games, movies, technology, challenges, outdoor activities and I plan to continue enjoying my life creating new things, enjoying my family, new technologies and nature."""
 
-SITE_DESCRIPTION = """My name is Sergio Prada, a Software Engineer at Unity Technologies. I'm working and living in Colombia. My experience has a variety of flavors because I started creating brand activation games, then I moved to the creation virtual simulators, later I worked on the creation of multi-platform applications for learning science, maths, etc, and now I'm providing professional support to the biggest customers of Unity in the Americas time zone.
-
-I speak Spanish and English, I am an early parent, I love video games, movies, technology, challenges, outdoor activities and I plan to continue enjoying my life creating new things, enjoying my family, new technologies and nature."""
-
-
 # work
 WORK_DESCRIPTION = ""
 # items to describe a work, "type", "cover-image link", "title", "descption", "link"
