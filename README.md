@@ -2,6 +2,8 @@
 
 This is the entry point for maintaining my personal site. I am using [Pelican](https://getpelican.com/) which is good for using markdown files as the source of every entry in my site.
 
+Also, worth mentioning that the original source of the theme is [BT3-Flat](https://github.com/KenMercusLai/BT3-Flat) by [KenMercusLai](https://github.com/KenMercusLai/). 
+
 ## How to clone?
 1. git clone --recurse-submodules git@github.com:seprab/PersonalSiteFeeder.git
 
