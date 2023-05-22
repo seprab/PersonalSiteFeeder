@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'SepraB'
 SITENAME = "SepraB's"
-SITEURL = 'seprab.com'
+SITEURL = 'https://seprab.com'
 PATH = 'content'
 TIMEZONE = 'America/Bogota'
 DEFAULT_LANG = 'En'
