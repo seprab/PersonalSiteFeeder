@@ -4,7 +4,7 @@ Category: About me
 
 ## Sergio Prada
 
-<br><br>*December 2020 - FROM INFINITY TO FOREVER*
+<br><br>*December 2020 - Present*
 
 &emsp; **Unity Technologies**
 

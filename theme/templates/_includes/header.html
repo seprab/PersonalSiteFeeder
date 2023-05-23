@@ -2,11 +2,11 @@
 <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 <meta name="author" content="{{ AUTHOR }}" />
 {% if article %}
-<title>{{ SITENAME }} - {{ article.title }}</title>
+<title>{{ article.title }}</title>
 <meta property="og:description" content="{{ article.description}}"/>
 <meta property='og:title' content="{{ article.title }}"/>
 {% else %}
-<title>{{ SITENAME }} - </title>
+<title>{{ SITENAME }}</title>
 <meta property="og:description" content="{{ PERSONAL_INFO }}"/>
 <meta property='og:title' content="{{ SITENAME }}"/>
 {% endif %}

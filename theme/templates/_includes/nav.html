@@ -22,22 +22,14 @@
         <!--<a href="#" class="btn-fullscreen"><i class="fa fa-external-link"></i></a>-->
 
         <ul class="nav navbar-nav navbar-right">
-          <!-- If the user wants to make articles the home page then remove blog link, and make about and work links point to old home page. -->
-            {% if ARTICLES_HOME_PAGE %}
-            <li><a href="{{SITEURL}}/">Blog</a></li>
-            <li><a href="{{SITEURL}}/about.html#about">About</a></li>
-            <li><a href="{{SITEURL}}/about.html#about">Work</a></li>
-          <!-- Otherwise, use the theme defaults. -->
-          {% else %}
             <li><a href="{{SITEURL}}/index.html#home">Home</a></li>
             <li><a href="{{SITEURL}}/index.html#about">About</a></li>
             {% if WORK_DESCRIPTION %}
-            <li><a href="{{SITEURL}}/index.html#work">Work</a></li>
+            <li><a href="{{SITEURL}}/index.html#work">Experience</a></li>
             {% endif %}
             {% if articles %}
             <li><a href="{{SITEURL}}/blog.html">Blog</a></li>
             {% endif %}
-          {% endif %}
           {% if LINKS %}
               {% for site_title, site_link in LINKS %}
                 <li style="background-color:#000"><a href="{{site_link}}" target="_blank">{{site_title}}</a></li>
