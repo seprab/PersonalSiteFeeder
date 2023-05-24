@@ -99,7 +99,7 @@
     <section id="work" class="alternate arrow-down">
     <div class="container">
         <header class="text-center">
-        <h1>MY EXPERIENCE</h1>
+        <h1>SHOWCASE</h1>
         </header>
 
         <div class="divider"><!-- lines divider --></div>
@@ -117,7 +117,7 @@
 
         <div class="row">
 
-            <ul class="sort-destination isotope" data-sort-id="isotope-list">
+            <ul class="sort-destination isotope" data-sort-id="isotope-list" style="display:flex; flex-wrap: wrap;">
 
             {% for work_type, work_cover_link, work_title, work_description, work_link in WORK_LIST %}
                 {% if work_type == 'link' %}

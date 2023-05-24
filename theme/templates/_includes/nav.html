@@ -18,23 +18,24 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-        <!-- Fullscreen Button - Unavailable for IE -->
-        <!--<a href="#" class="btn-fullscreen"><i class="fa fa-external-link"></i></a>-->
-
         <ul class="nav navbar-nav navbar-right">
             <li><a href="{{SITEURL}}/index.html#home">Home</a></li>
             <li><a href="{{SITEURL}}/index.html#about">About</a></li>
             {% if WORK_DESCRIPTION %}
-            <li><a href="{{SITEURL}}/index.html#work">Experience</a></li>
+            <li><a href="{{SITEURL}}/index.html#work">Showcase</a></li>
             {% endif %}
             {% if articles %}
             <li><a href="{{SITEURL}}/blog.html">Blog</a></li>
             {% endif %}
           {% if LINKS %}
               {% for site_title, site_link in LINKS %}
-                <li style="background-color:#000"><a href="{{site_link}}" target="_blank">{{site_title}}</a></li>
+                <li><a href="{{site_link}}" target="_blank">{{site_title}}</a></li>
               {% endfor %}
           {% endif %}
+          <li><a href="mailto:{{EMAIL}}?Subject=Hey%20Sergio%20I%20come%20from%20your%website" style="padding-bottom: 0;">
+            LET'S TALK ➚
+            <p style="font-size: 10px; line-height: 0; text-transform: lowercase;">{{EMAIL}}</p>
+          </a></li>
         </ul>
       </div>
       <!-- /.navbar-collapse -->
