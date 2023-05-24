@@ -100,7 +100,7 @@ PERSONAL_INFO = """My name is Sergio Prada, a Software Engineer at Unity Technol
 I speak Spanish and English, I am an early parent, I love video games, movies, technology, challenges, outdoor activities and I plan to continue enjoying my life creating new things, enjoying my family, new technologies and nature."""
 
 # work 
-WORK_DESCRIPTION = "This is a quick mention to projects where I participated or I am participating. Showing projects where I worked is not an easy task due to non-disclosure agreements or simply no public web reference to it. In case you'd like to better understand my experience visit my LinkedIn profile or visit the last item in this section."
+WORK_DESCRIPTION = "This is a quick mention to projects where I participated or I am participating. Showing projects where I worked is not an easy task due to non-disclosure agreements or simply no public web reference to it. In case you'd like to better understand my experience visit my LinkedIn profile or visit MY CV."
 # items to describe a work, "type", "cover-image link", "title", "descption", "link"
 WORK_LIST = (
     ('link', 'https://scontent.fbog7-1.fna.fbcdn.net/v/t39.30808-6/299874384_381916974098494_1045593393974149491_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeEw_Sw71YdRqn1VVQdQckf3E5t6By6Y-pATm3oHLpj6kP-RTiDVsijn5t3XPp-Un0E&_nc_ohc=TOGRv97E0QsAX_S-NuK&_nc_ht=scontent.fbog7-1.fna&oh=00_AfBGa9VpH_1zZNf2j11y5MOsJKHcgJwzxqhwL4cKLc85CA&oe=6470BA68', 'TAMAGUINO', "I'm working on a customized version of Tamaguino for my son based on Alojz Jakob development. Also, this is a oportunity to get to know arduino with C++", "https://github.com/seprab/Tamaguino"),
